@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 3px;
+   
+}
+.hd{
+    height: 100vh;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefefe7;
+}
+.logo{
+    height: 65px;
+    padding: 0px 10px;
+}
+.icon-bar{
+    background: rgb(120, 240, 8);
+}
+li a{
+    color: black;
+}
+.bt{
+    font-size: 52px;
+    margin: 20px 0;
+    color: rgb(12, 241, 24);
+}
+a.btn{
+margin: 40px 20px;
+width: 150px;
+padding: 10px;
+border-radius: 20px;
+
+}
+a.btn-first{
+background-color:rgb(6, 243, 17) ;
+color: honeydew;
+}
+a.btn-second{
+    background:transparent;
+    border: 1px solid rgb(0, 161, 40);
+    color: rgb(17, 2, 2);
+
+    }
+
+a.btn:hover{
+    background: rgb(5, 243, 65);
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 10px rgb(20, 20, 20);
+    transition: 0.3s;
+}    
+.hhdd{
+    color: rgb(8, 241, 66) ;
+}

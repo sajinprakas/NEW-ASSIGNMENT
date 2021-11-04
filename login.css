@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+   
+}
+.hd{
+    height: 100vh;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+    height: 65px;
+    padding: 0px 10px;
+}
+.icon-bar{
+    background: rgba(5, 236, 36, 0.616);
+}
+li a{
+    color: black;
+}
+body{
+    background: rgb(189, 23, 23);
+}
+.row{
+    background-color:rgba(226, 226, 226, 0.637);
+    border-radius: 40px;
+    box-shadow: 12px 12px 22px rgb(10, 10, 10);
+    
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
