@@ -9,25 +9,26 @@
 
 }
 .navbar-style{
-    box-shadow: 0 5px 10px #efefef;
+     background-color: yellowgreen;
+     box-shadow: 0 5px 10px #efefef;
 }
 .logo{
     height: 65px;
     padding: 0px 10px;
 }
 .icon-bar{
-    background: rgba(5, 236, 36, 0.616);
+    background: rgba(59, 196, 77, 0.616);
 }
 li a{
     color: black;
 }
 body{
-    background: rgb(189, 23, 23);
+    background: rgb(10, 10, 10);
 }
 .row{
-    background-color:rgba(226, 226, 226, 0.637);
+    background-color:rgba(14, 216, 24, 0.637);
     border-radius: 40px;
-    box-shadow: 12px 12px 22px rgb(10, 10, 10);
+    box-shadow: 12px 12px 22px rgba(238, 233, 233, 0.041);
     
 }
 .btn1{
