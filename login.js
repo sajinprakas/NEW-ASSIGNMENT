@@ -1,16 +1,16 @@
 function validation(){
 
-    var userna = document.getElementById('userna').value;
-    var passwordd = document.getElementById('passwordd').value;
+    var user = document.getElementById('user').value;
+    var password = document.getElementById('password').value;
 
 
 
-    if(userna == ""){
-        document.getElementById('username2').innerHTML =" ** Please fill the username field";
+    if(user == ""){
+        document.getElementById('username').innerHTML =" ** Please fill the username field";
         return false;
     }
-    if(passwordd == ""){
-        document.getElementById('password2').innerHTML =" ** Please Enter Password";
+    if(password == ""){
+        document.getElementById('passwordd').innerHTML =" ** Please Enter Password";
         return false;
     }
 
