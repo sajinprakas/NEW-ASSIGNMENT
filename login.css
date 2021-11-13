@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 1px;
+    padding: 3px;
     box-sizing: border-box;
    
 }
@@ -27,22 +27,22 @@ body{
 }
 .row{
     background-color:rgba(14, 216, 24, 0.637);
-    border-radius: 40px;
+    border-radius: 24px;
     box-shadow: 12px 12px 22px rgba(238, 233, 233, 0.041);
     
 }
 .btn1{
-    border: none;
+    border: 2px;
     outline: none;
     height: 50px;
     width: 100%;
     background-color: black;
     color: white;
-    border-radius: 4px;
+    border-radius: 24px;
     font-weight: bold;
 }
 .btn1:hover{
-    background-color: white;
-    border: 1px solid;
+    background-color: #2ecc71;
+    border: 2px solid #3498db;
     color: black;
 }

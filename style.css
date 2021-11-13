@@ -18,8 +18,21 @@
 .icon-bar{
     background: rgb(177, 241, 117);
 }
-li a{
-    color: black;
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 .bt{
     font-size: 39px;
