@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 3px;
+    padding: 5px;
    
 }
 .hd{
@@ -8,9 +8,63 @@
 
 }
 .navbar-style{
-    box-shadow: 0 5px 10px #efefef;
+    background-color: yellowgreen;
+    box-shadow: 0 5px 10px #efefefe7;
 }
 .logo{
     height: 65px;
     padding: 0px 10px;
+}
+.icon-bar{
+    background: rgb(177, 241, 117);
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.bt{
+    font-size: 39px;
+    margin: 20px 0;
+    color: rgba(7, 107, 146, 0.562);
+    font-family: monospace;
+}
+a.btn{
+margin: 50px 25px;
+width: 150px;
+padding: 21px;
+border-radius: 10px;
+
+}
+a.btn-first{
+background-color:rgb(253, 253, 253) ;
+border: 1px solid rgb(13, 153, 50);
+color: rgb(0, 0, 0);
+}
+a.btn-second{
+    border: 1px solid rgb(13, 153, 50);
+    color: rgb(41, 35, 35);
+    }
+
+a.btn:hover{
+    background: rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(20, 20, 20);
+    transition: 0.3s;
+}    
+.hhdd{
+    font-size: 45px;
+    color: rgba(15, 126, 34, 0.911) ;
 }
